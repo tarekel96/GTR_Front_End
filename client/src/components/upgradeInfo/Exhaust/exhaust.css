@@ -1,0 +1,69 @@
+#exhaust-main {
+  /* padding-top: 7rem; */
+  padding: 0;
+  margin: 0 auto;
+}
+
+.exhaust-row {
+  justify-content: center;
+  flex-flow: row nowrap;
+}
+
+.exhaust-jumbo {
+  padding-top: 0;
+  padding-bottom: 1rem;
+  height: 600px;
+}
+
+@media (max-width: 768px) {
+  .exhaust-jumbo {
+    height: 650px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .exhaust-jumbo {
+    height: 700px;
+  }
+}
+.exhaust-jumbo h2 {
+  text-align: center;
+}
+
+.exhaust-images-div {
+  display: flex;
+  justify-content: center;
+}
+
+.exhaust-images {
+  height: 100%;
+  width: 100%;
+  /* border-radius: 50%; */
+}
+
+/* .exhaust-images {
+  border-radius: 50%;
+  height: 340px;
+  width: 512px;
+} */
+
+/* @media (max-height: 768px) {
+  .exhaust-images {
+    height: 255px;
+    width: 384px;
+  }
+} */
+
+/* .exhaust-info {
+              display: none;
+            } */
+
+.exhaust-button-div {
+  display: flex;
+  justify-content: center;
+  /* padding-top: 2rem; */
+}
+
+.exhaust-benefits-div {
+  text-align: left;
+}

@@ -1,0 +1,56 @@
+#gears-main {
+  /* padding-top: 7rem; */
+  padding: 0;
+  margin: 0 auto;
+}
+
+.gears-row {
+  justify-content: center;
+  flex-flow: row nowrap;
+}
+
+.gears-jumbo {
+  padding-top: 0;
+  height: 550px;
+}
+
+@media (max-width: 768px) {
+  .gears-jumbo {
+    height: 600px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .gears-jumbo {
+    height: 700px;
+  }
+}
+
+.gears-jumbo h2 {
+  text-align: center;
+}
+
+.gears-images-div {
+  display: flex;
+  justify-content: center;
+}
+
+.gears-images {
+  /* border-radius: 50%; */
+  width: 100%;
+  height: 100%;
+}
+
+/* .gears-info {
+              display: none;
+            } */
+
+.gears-button-div {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.gears-benefits-div {
+  text-align: left;
+}

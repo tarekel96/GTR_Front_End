@@ -1,0 +1,10 @@
+#packages-container {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  flex-wrap: wrap;
+}
+
+/* #packages-container div {
+  flex-basis: 33%;
+} */

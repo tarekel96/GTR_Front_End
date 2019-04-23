@@ -1,0 +1,50 @@
+#cooling-main {
+  /* padding-top: 7rem; */
+  padding: 0;
+  margin: 0 auto;
+}
+
+.cooling-row {
+  justify-content: center;
+  flex-flow: row nowrap;
+}
+
+.cooling-jumbo {
+  padding-top: 0;
+  padding-bottom: 1rem;
+  height: 600px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .cooling-jumbo {
+    height: 700px;
+  }
+}
+
+.cooling-jumbo h2 {
+  text-align: center;
+}
+
+.cooling-images-div {
+  display: flex;
+  justify-content: center;
+}
+
+.cooling-images {
+  /* border-radius: 50%; */
+  height: 75%;
+  width: 75%;
+}
+
+/* .cooling-info {
+              display: none;
+            } */
+
+.cooling-button-div {
+  display: flex;
+  justify-content: center;
+}
+
+.cooling-benefits-div {
+  text-align: left;
+}

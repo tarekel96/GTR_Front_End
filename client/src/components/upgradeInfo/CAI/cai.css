@@ -1,0 +1,56 @@
+#cai-main {
+  /* padding-top: 7rem; */
+  padding: 0;
+  margin: 0 auto;
+}
+
+.cai-row {
+  justify-content: center;
+  flex-flow: row nowrap;
+}
+
+.cai-jumbo {
+  padding-top: 0;
+  padding-bottom: 1rem;
+  height: 600px;
+}
+
+@media (max-width: 768px) {
+  .cai-jumbo {
+    height: 650px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .cai-jumbo {
+    height: 800px;
+  }
+}
+
+.cai-jumbo h2 {
+  text-align: center;
+}
+
+.cai-images-div {
+  display: flex;
+  justify-content: center;
+}
+
+.cai-images {
+  /* border-radius: 50%; */
+  height: 80%;
+  width: 80%;
+}
+
+/* .cai-info {
+        display: none;
+      } */
+
+.cai-button-div {
+  display: flex;
+  justify-content: center;
+}
+
+.cai-benefits-div {
+  text-align: left;
+}

@@ -1,0 +1,50 @@
+#brakes-main {
+  /* padding-top: 7rem; */
+  padding: 0;
+  margin: 0 auto;
+}
+
+.brakes-row {
+  justify-content: center;
+  flex-flow: row nowrap;
+}
+
+.brakes-jumbo {
+  padding-top: 0;
+
+  height: 600px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .brakes-jumbo {
+    height: 600px;
+  }
+}
+
+.brakes-jumbo h2 {
+  text-align: center;
+}
+
+.brakes-images-div {
+  display: flex;
+  justify-content: center;
+}
+
+.brakes-images {
+  height: 75%;
+  width: 75%;
+}
+
+/* .brakes-info {
+              display: none;
+            } */
+
+.brakes-button-div {
+  display: flex;
+  justify-content: center;
+  /* padding-top: 2rem; */
+}
+
+.brakes-benefits-div {
+  text-align: left;
+}

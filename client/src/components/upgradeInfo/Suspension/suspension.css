@@ -1,0 +1,56 @@
+#suspension-main {
+  /* padding-top: 7rem; */
+  padding: 0;
+  margin: 0 auto;
+}
+
+.suspension-row {
+  justify-content: center;
+  flex-flow: row nowrap;
+}
+
+.suspension-jumbo {
+  padding-top: 0;
+  padding-bottom: 1rem;
+  height: 600px;
+}
+
+@media (max-width: 768px) {
+  .suspension-jumbo {
+    height: 650px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .suspension-jumbo {
+    height: 700px;
+  }
+}
+
+.suspension-jumbo h2 {
+  text-align: center;
+}
+
+.suspension-images-div {
+  display: flex;
+  justify-content: center;
+}
+
+.suspension-images {
+  /* border-radius: 50%; */
+  width: 90%;
+  height: 90%;
+}
+
+/* .suspension-info {
+              display: none;
+            } */
+
+.suspension-button-div {
+  display: flex;
+  justify-content: center;
+}
+
+.suspension-benefits-div {
+  text-align: left;
+}

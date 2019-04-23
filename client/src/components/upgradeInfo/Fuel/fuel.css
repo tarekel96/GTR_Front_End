@@ -1,0 +1,48 @@
+#fuel-main {
+  /* padding-top: 7rem; */
+}
+
+.fuel-row {
+  justify-content: center;
+  flex-flow: row nowrap;
+}
+
+.fuel-jumbo {
+  padding-top: 0;
+  /* padding-bottom: 1rem; */
+  height: 600px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .fuel-jumbo {
+    height: 700px;
+  }
+}
+
+.fuel-jumbo h2 {
+  text-align: center;
+}
+
+.fuel-images-div {
+  display: flex;
+  justify-content: center;
+}
+
+.fuel-images {
+  height: 75%;
+  width: 75%;
+}
+
+/* .fuel-info {
+              display: none;
+            } */
+
+.fuel-button-div {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.fuel-benefits-div {
+  text-align: left;
+}

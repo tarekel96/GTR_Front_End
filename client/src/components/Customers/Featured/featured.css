@@ -1,0 +1,16 @@
+.con-featured {
+  padding-left: 5%;
+  padding-right: 5%;
+  justify-content: center;
+  display: flex;
+  padding-top: 2rem;
+}
+
+/* .video-featured {
+  text-align: center;
+} */
+
+.main-featured {
+  text-align: justify;
+  padding-left: 1rem;
+}

@@ -1,0 +1,24 @@
+#homeNavBar {
+  color: hsl(0, 0%, 11%);
+  background-color: #ecebe5;
+}
+
+.nav-black {
+  color: hsl(0, 0%, 11%);
+}
+
+.wordIcons {
+  display: none;
+}
+
+@media (max-width: 990px) {
+  #homeNavBar {
+    background-color: #c9af98;
+  }
+  .icons {
+    display: none;
+  }
+  .wordIcons {
+    display: block;
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "gtr-website",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:3001",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
+    "google-maps-react": "^2.0.2",
+    "moment": "^2.24.0",
+    "react": "^16.8.6",
+    "react-big-calendar": "^0.20.4",
+    "react-bootstrap": "^1.0.0-beta.8",
+    "react-dom": "^16.8.6",
+    "react-icons": "^3.6.1",
+    "react-iframe": "^1.8.0",
+    "react-reveal": "^1.2.2",
+    "react-router-bootstrap": "^0.24.4",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^3.0.0",
+    "react-youtube": "^7.9.0",
+    "typescript": "^3.4.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "Config": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "superagent": "^4.1.0"
+  }
+}
