@@ -6,11 +6,22 @@
   padding-top: 2rem;
 }
 
-/* .video-featured {
-  text-align: center;
-} */
-
 .main-featured {
   text-align: justify;
   padding-left: 1rem;
+}
+
+.video-featured {
+  height: "390";
+  width: "640";
+}
+
+@media (max-width: 1024px) {
+  .con-featured {
+    display: block;
+  }
+  iframe {
+    height: 195px;
+    width: 320px;
+  }
 }
