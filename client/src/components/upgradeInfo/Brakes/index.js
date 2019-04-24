@@ -11,7 +11,7 @@ class Brakes extends Component {
       name: "Performance Brake Upgrades",
       id: 7,
       render: false,
-      img: "assets/images/UpgradeInfo/brakes.jpg",
+      img: "../../../images/UpgradeInfo/brakes.jpg",
       info:
         "GTR understands the need for more horsepower and faster acceleration, but we also understand that having the ability to slow down and stop your Mustang is even MORE important! The Mustang's stock braking system are, in many cases, inadequate for performance driving or heavy-usage. That is why GTR offers all the top name brand manufacturers in the brakes industry. Names such as Baer, Brembo, Powerslot, Hawk Racing, StopTech, etc...all make direct replacement brake parts to give your pony more stopping power. Whether you are looking for a simple, yet effective brake upgrade with brakes pads and replacment rotors, or you want to really take it up a notch or two with a big brake kit, such as those offered by Baer and Brembo, GTR has you covered. GTR can tailer a brake package desgined to fit your needs and budget to ensure you get the best possible combination for your hard-earned dollar. Contact us today and start enjoying greater stopping power and enhanced safety for your Mustang.",
       benefits: [
@@ -37,7 +37,10 @@ class Brakes extends Component {
           <h2>{this.state.name}</h2>
 
           <div className="brakes-images-div">
-            <Image src={this.state.img} className="brakes-images" />
+            <Image
+              src={require("../../../images/UpgradeInfo/brakes.jpg")}
+              className="brakes-images"
+            />
           </div>
 
           <div className="brakes-benefits-div">

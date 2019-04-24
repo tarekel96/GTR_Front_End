@@ -11,7 +11,7 @@ class Exhaust extends Component {
       name: "Performance Exhaust Systems",
       id: 2,
       render: false,
-      img: "assets/images/UpgradeInfo/tickford.jpg",
+      img: "../../../images/UpgradeInfo/tickford.jpg",
       info: [
         "It is almost an unwritten rule that a Mustang must have a deep, powerful exhaust tone. Swapping out the wimpy stock exhaust part(s) in favor of a less restrictive, larger diameter exhaust system will not only wake up your Mustang with an authoratative growl, but also reward your ride with more power and torque. Furthermore, due to the improved efficiency levels, gas mileage will also be increased. A win-win situation.",
         "GTR carries numerous top-quality exhaust systems for Mustangs that offer a throaty sound and more power. GTR offers everything required to replace your stock exhaust in pieces or as a whole. Performance parts such as headers, H-Pipes, X-pipes, and muffler systems are all available to suit your performance needs and your budget.",
@@ -42,7 +42,10 @@ class Exhaust extends Component {
           <h2>{this.state.name}</h2>
 
           <div className="exhaust-images-div">
-            <Image src={this.state.img} className="exhaust-images" />
+            <Image
+              src={require("../../../images/UpgradeInfo/tickford.jpg")}
+              className="exhaust-images"
+            />
           </div>
 
           <div className="exhaust-benefits-div">

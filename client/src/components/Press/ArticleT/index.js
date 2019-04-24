@@ -15,7 +15,7 @@ const ArticleT = ({ table }) => {
           rel="noopener noreferrer"
         >
           <img
-            src="assets/images/Press/Get-A-Grip-sm.jpg"
+            src={require("../../../images/Press/Get-A-Grip-sm.jpg")}
             width="100"
             height="121"
             alt="getagrip"
@@ -29,7 +29,7 @@ const ArticleT = ({ table }) => {
           rel="noopener noreferrer"
         >
           <img
-            src="assets/images/Press/Barton-Industries-6-Speed.jpg"
+            src={require("../../../images/Press/Barton-Industries-6-Speed.jpg")}
             alt="Barton Industires Short Flow Six Speed Shifter"
             width="100"
             height="121"
@@ -44,7 +44,7 @@ const ArticleT = ({ table }) => {
           rel="noopener noreferrer"
         >
           <img
-            src="assets/images/Press/Six-Speed-Transmission.jpg"
+            src={require("../../../images/Press/Six-Speed-Transmission.jpg")}
             alt="Six Speed Transmission G Force Gear Upgrades"
             width="100"
             height="122"
@@ -59,7 +59,7 @@ const ArticleT = ({ table }) => {
           rel="noopener noreferrer"
         >
           <img
-            src="assets/images/Press/2002-Ford-Mustang-GT.jpg"
+            src={require("../../../images/Press/2002-Ford-Mustang-GT.jpg")}
             alt="2002 Ford Mustang GT 8.8 Rearend Rebuild"
             width="100"
             height="121"
@@ -74,7 +74,7 @@ const ArticleT = ({ table }) => {
           rel="noopener noreferrer"
         >
           <img
-            src="assets/images/Press/trick-flow-twisted-wedge-chamber.jpg"
+            src={require("../../../images/Press/trick-flow-twisted-wedge-chamber.jpg")}
             alt="Trick Flow Twisted Wedge Chamber"
             width="100"
             height="121"
@@ -90,7 +90,7 @@ const ArticleT = ({ table }) => {
           rel="noopener noreferrer"
         >
           <img
-            src="assets/images/Press/2011-Ford-Mustang-GT.jpg"
+            src={require("../../../images/Press/2011-Ford-Mustang-GT.jpg")}
             alt="2011 Ford Mustang GT Steeda Ultimate Induction Pak"
             width="100"
             height="121"
@@ -105,7 +105,7 @@ const ArticleT = ({ table }) => {
           rel="noopener noreferrer"
         >
           <img
-            src="assets/images/Press/recession-proof-performance.jpg"
+            src={require("../../../images/Press/recession-proof-performance.jpg")}
             width="100"
             height="121"
             alt="Recession Proof Performance"
@@ -119,7 +119,7 @@ const ArticleT = ({ table }) => {
           rel="noopener noreferrer"
         >
           <img
-            src="assets/images/Press/TrickFlowsTwistedWedge.png"
+            src={require("../../../images/Press/TrickFlowsTwistedWedge.png")}
             alt="Trick Flo's Twisted Wedge Chamber"
             width="100"
             height="135"
@@ -134,7 +134,7 @@ const ArticleT = ({ table }) => {
           rel="noopener noreferrer"
         >
           <img
-            src="assets/images/Press/CoolUnderPressure-1.jpg"
+            src={require("../../../images/Press/CoolUnderPressure-1.jpg")}
             alt="GTR-in-press"
             width="100"
             height="132"
@@ -149,7 +149,7 @@ const ArticleT = ({ table }) => {
           rel="noopener noreferrer"
         >
           <img
-            src="assets/images/Press/CasualZex-1.jpg"
+            src={require("../../../images/Press/CasualZex-1.jpg")}
             alt="GTR-in-press"
             width="100"
             height="135"
@@ -165,7 +165,7 @@ const ArticleT = ({ table }) => {
           rel="noopener noreferrer"
         >
           <img
-            src="assets/images/Press/Barton-Industries-Short-Throw.png"
+            src={require("../../../images/Press/Barton-Industries-Short-Throw.png")}
             alt="Barton Industries Short Throw Six Speed Shifter"
             width="100"
             height="135"
@@ -180,7 +180,7 @@ const ArticleT = ({ table }) => {
           rel="noopener noreferrer"
         >
           <img
-            src="assets/images/Press/GimmeABoost-1.jpg"
+            src={require("../../../images/Press/GimmeABoost-1.jpg")}
             alt="GTR-in-press"
             width="100"
             height="135"
@@ -195,7 +195,7 @@ const ArticleT = ({ table }) => {
           rel="noopener noreferrer"
         >
           <img
-            src="assets/images/Press/EasyBreathing-1.jpg"
+            src={require("../../../images/Press/EasyBreathing-1.jpg")}
             alt="GTR-in-press"
             width="100"
             height="135"
@@ -210,7 +210,7 @@ const ArticleT = ({ table }) => {
           rel="noopener noreferrer"
         >
           <img
-            src="assets/images/Press/Six-Speed-Transmission-G-Force.png"
+            src={require("../../../images/Press/Six-Speed-Transmission-G-Force.png")}
             alt="Six Speed Transmission G Force"
             width="100"
             height="135"
@@ -225,7 +225,7 @@ const ArticleT = ({ table }) => {
           rel="noopener noreferrer"
         >
           <img
-            src="assets/images/Press/Mustang-Engine-Swap.jpg"
+            src={require("../../../images/Press/Mustang-Engine-Swap.jpg")}
             alt="Mustang Engine Swap"
             width="100"
             height="121"
@@ -241,7 +241,7 @@ const ArticleT = ({ table }) => {
           rel="noopener noreferrer"
         >
           <img
-            src="assets/images/Press/LicenseToChill-1.jpg"
+            src={require("../../../images/Press/LicenseToChill-1.jpg")}
             alt="GTR-in-press"
             width="100"
             height="132"
@@ -256,7 +256,7 @@ const ArticleT = ({ table }) => {
           rel="noopener noreferrer"
         >
           <img
-            src="assets/images/Press/LiftItQuick-1.jpg"
+            src={require("../../../images/Press/LiftItQuick-1.jpg")}
             alt="GTR-in-press"
             width="100"
             height="135"
@@ -271,7 +271,7 @@ const ArticleT = ({ table }) => {
           rel="noopener noreferrer"
         >
           <img
-            src="assets/images/Press/QuickSix-1.jpg"
+            src={require("../../../images/Press/QuickSix-1.jpg")}
             alt="GTR-in-press"
             width="100"
             height="135"
@@ -286,7 +286,7 @@ const ArticleT = ({ table }) => {
           rel="noopener noreferrer"
         >
           <img
-            src="assets/images/Press/Mach1MakeOver-1.jpg"
+            src={require("../../../images/Press/Mach1MakeOver-1.jpg")}
             alt="GTR-in-press"
             width="100"
             height="135"
@@ -301,7 +301,7 @@ const ArticleT = ({ table }) => {
           rel="noopener noreferrer"
         >
           <img
-            src="assets/images/Press/Mustang-Engine-Swap.png"
+            src={require("../../../images/Press/Mustang-Engine-Swap.png")}
             alt="Mustang Engine Swap"
             width="100"
             height="135"
@@ -317,7 +317,7 @@ const ArticleT = ({ table }) => {
           rel="noopener noreferrer"
         >
           <img
-            src="assets/images/Press/ShockTherapy-1.jpg"
+            src={require("../../../images/Press/ShockTherapy-1.jpg")}
             alt="GTR-in-press"
             width="100"
             height="132"
@@ -332,7 +332,7 @@ const ArticleT = ({ table }) => {
           rel="noopener noreferrer"
         >
           <img
-            src="assets/images/Press/2002-Ford-Mustang-GT-88.png"
+            src={require("../../../images/Press/2002-Ford-Mustang-GT-88.png")}
             alt="2002 Ford Mustang GT 8.8"
             width="100"
             height="135"
@@ -347,7 +347,7 @@ const ArticleT = ({ table }) => {
           rel="noopener noreferrer"
         >
           <img
-            src="assets/images/Press/2011-Ford-Mustang-GT-Steeda.png"
+            src={require("../../../images/Press/2011-Ford-Mustang-GT-Steeda.png")}
             alt="2011 Ford Mustang GT Steeda"
             width="100"
             height="135"
@@ -362,7 +362,7 @@ const ArticleT = ({ table }) => {
           rel="noopener noreferrer"
         >
           <img
-            src="assets/images/Press/StraightShooter-1.jpg"
+            src={require("../../../images/Press/StraightShooter-1.jpg")}
             alt="Straight Shooter"
             title="Straight Shooter"
             width="100"
@@ -377,7 +377,7 @@ const ArticleT = ({ table }) => {
           rel="noopener noreferrer"
         >
           <img
-            src="assets/images/Press/SittinPretty-1.jpg"
+            src={require("../../../images/Press/SittinPretty-1.jpg")}
             alt="GTR-in-press"
             width="100"
             height="135"
@@ -393,7 +393,7 @@ const ArticleT = ({ table }) => {
           rel="noopener noreferrer"
         >
           <img
-            src="assets/images/Press/TurboneticsArticle-1.jpg"
+            src={require("../../../images/Press/TurboneticsArticle-1.jpg")}
             width="100"
             height="135"
             alt="GTR-Turbonetics"
@@ -407,7 +407,7 @@ const ArticleT = ({ table }) => {
           rel="noopener noreferrer"
         >
           <img
-            src="assets/images/Press/UnderdrivingOverachiever-1.jpg"
+            src={require("../../../images/Press/UnderdrivingOverachiever-1.jpg")}
             alt="GTR-in-press"
             width="100"
             height="135"
@@ -422,7 +422,7 @@ const ArticleT = ({ table }) => {
           rel="noopener noreferrer"
         >
           <img
-            src="assets/images/Press/RaisingTheBar-1.jpg"
+            src={require("../../../images/Press/RaisingTheBar-1.jpg")}
             alt="GTR-in-press"
             width="100"
             height="135"
@@ -437,7 +437,7 @@ const ArticleT = ({ table }) => {
           rel="noopener noreferrer"
         >
           <img
-            src="assets/images/Press/AShiftForTheBetter-1.jpg"
+            src={require("../../../images/Press/AShiftForTheBetter-1.jpg")}
             alt="GTR-in-press"
             width="100"
             height="135"
@@ -452,7 +452,7 @@ const ArticleT = ({ table }) => {
           rel="noopener noreferrer"
         >
           <img
-            src="assets/images/Press/TheMissingLink-1.jpg"
+            src={require("../../../images/Press/TheMissingLink-1.jpg")}
             alt="GTR-in-press"
             width="100"
             height="135"
@@ -468,7 +468,7 @@ const ArticleT = ({ table }) => {
           rel="noopener noreferrer"
         >
           <img
-            src="assets/images/Press/C&amp;L-TrueflowFirstLook-1.jpg"
+            src={require("../../../images/Press/C&L-TrueflowFirstLook-1.jpg")}
             alt="GTR-in-press"
             width="100"
             height="135"
@@ -483,7 +483,7 @@ const ArticleT = ({ table }) => {
           rel="noopener noreferrer"
         >
           <img
-            src="assets/images/Press/BlowingThe5oh-1.jpg"
+            src={require("../../../images/Press/BlowingThe5oh-1.jpg")}
             alt="GTR-in-press"
             width="100"
             height="135"
@@ -498,7 +498,7 @@ const ArticleT = ({ table }) => {
           rel="noopener noreferrer"
         >
           <img
-            src="assets/images/Press/BaerEssentials-1.jpg"
+            src={require("../../../images/Press/BaerEssentials-1.jpg")}
             alt="GTR-in-press"
             width="100"
             height="132"
@@ -512,7 +512,7 @@ const ArticleT = ({ table }) => {
           rel="noopener noreferrer"
         >
           <img
-            src="assets/images/Press/UnderPressure-Camaro-1.jpg"
+            src={require("../../../images/Press/UnderPressure-Camaro-1.jpg")}
             width="100"
             height="135"
             alt="gtr-camaro-clutch-article"
@@ -526,7 +526,7 @@ const ArticleT = ({ table }) => {
           rel="noopener noreferrer"
         >
           <img
-            src="assets/images/Press/UpgradedRoadHandling-1.jpg"
+            src={require("../../../images/Press/UpgradedRoadHandling-1.jpg")}
             alt="GTR-in-press"
             width="100"
             height="132"
@@ -542,7 +542,7 @@ const ArticleT = ({ table }) => {
           rel="noopener noreferrer"
         >
           <img
-            src="assets/images/Press/BlownAway-1.jpg"
+            src={require("../../../images/Press/BlownAway-1.jpg")}
             alt="GTR-in-press"
             width="100"
             height="135"
@@ -557,7 +557,7 @@ const ArticleT = ({ table }) => {
           rel="noopener noreferrer"
         >
           <img
-            src="assets/images/Press/XMarksTheSpot-1.jpg"
+            src={require("../../../images/Press/XMarksTheSpot-1.jpg")}
             alt="GTR-in-press"
             width="100"
             height="135"

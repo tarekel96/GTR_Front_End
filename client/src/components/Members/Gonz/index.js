@@ -24,7 +24,10 @@ class Gonz extends Component {
     return (
       <Fragment>
         <Card className="members-cards">
-          <Card.Img variant="top" src={"assets/images/members/Gonz.jpeg"} />
+          <Card.Img
+            variant="top"
+            src={require("../../../images/members/Gonz.jpeg")}
+          />
           <Card.Body>
             <Card.Title>{personalInfo.name}</Card.Title>
             <Card.Text>{personalInfo.title}</Card.Text>

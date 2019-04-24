@@ -11,7 +11,7 @@ class Shifters extends Component {
       name: "Short-Throw Racing Shifters",
       id: 5,
       render: false,
-      img: "assets/images/UpgradeInfo/shifter.jpg",
+      img: "../../../images/UpgradeInfo/shifter.jpg",
       info: [
         "One of the biggest complaints among Mustang enthusiasts is the factory stock shifter. In stock form, it feels vague, rubbery and the throws into gear are long and innacurate. Ever tried speed-shifting from 2nd to 3rd gear and not been able to hit the target? Or wost, end up losing a race because of the missed shift? If so, a short throw racing shifter is just what your Mustang's manual transmission needs. GTR carries several different brand of industry-leading short throw racing shifters to suit your needs and budget. All of them, including the value-minded shifters will be much stronger than the wimpy stock piece and offer more precise, accurate and shorter throws to help get your Stang in gear faster. Think about it: the less time you spend in between gears, the faster the car will accelerate! Short throw racing shifters are one of those rare upgrades that will have you wondering how you ever drove or raced your Mustang with the stock shifter. It truly changes the whole driving experience and rewards you with crisp, quick shifts. Contact a GTR representative for help in selecting a shifter that works for your pony."
       ],
@@ -37,7 +37,10 @@ class Shifters extends Component {
           <h2>{this.state.name}</h2>
 
           <div className="shifters-images-div">
-            <Image src={this.state.img} className="shifters-images" />
+            <Image
+              src={require("../../../images/UpgradeInfo/shifter.jpg")}
+              className="shifters-images"
+            />
           </div>
 
           <div className="shifters-benefits-div">

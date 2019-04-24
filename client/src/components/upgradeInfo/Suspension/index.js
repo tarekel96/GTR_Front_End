@@ -11,7 +11,7 @@ class Suspension extends Component {
       name: "Performance Suspension & Chassis Parts",
       id: 3,
       render: false,
-      img: "assets/images/UpgradeInfo/suspension.jpg",
+      img: "../../../images/UpgradeInfo/suspension.jpg",
       info: [
         "GTR offers a wide assortment of quality performance suspension and chassis upgrades for late-model Mustang. Everything your pony could ever want to improve its handling and stability is under our roof. Parts such as lowering springs, drag-racing springs, control arms, shocks and struts, bushings, caster/camber plates, subrame connectors, strut tower braces, etc...If you stop and think about it, the bassis of a high performance car, begins with the foundation, which is its suspension and chassis. In order to harness and control the power of a vehicle, you must be able to put that power down to the ground. Whether in a straight line or around corners, suspension and chassis play a huge part in making a Mustang gallop at full speed. GTR has years of experience testing high performance street and race suspension and chassis parts. We can help you choose a complete suspension to achieve your goals or give you sound technical information. Contact GTR for help in selecting your first or next suspension modification. Regardless of whether you need a complete suspension and chassis system or basic bushings, count on GTR for the best advice and service!"
       ],
@@ -38,7 +38,10 @@ class Suspension extends Component {
           <h2>{this.state.name}</h2>
 
           <div className="suspension-images-div">
-            <Image src={this.state.img} className="suspension-images" />
+            <Image
+              src={require("../../../images/UpgradeInfo/suspension.jpg")}
+              className="suspension-images"
+            />
           </div>
 
           <div className="suspension-benefits-div">

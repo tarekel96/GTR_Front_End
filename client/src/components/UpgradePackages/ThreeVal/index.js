@@ -23,7 +23,7 @@ class ThreeVal extends Component {
     return (
       <React.Fragment>
         <Image
-          src="assets/images/UpgradePackages/3VGTButton.png"
+          src={require("../../../images/UpgradePackages/3VGTButton.png")}
           className="package-image"
           onClick={this.handleShow}
         />

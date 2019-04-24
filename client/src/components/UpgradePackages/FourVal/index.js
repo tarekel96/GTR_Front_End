@@ -23,7 +23,7 @@ class FourVal extends Component {
     return (
       <React.Fragment>
         <Image
-          src="assets/images/UpgradePackages/4V46Button.png"
+          src={require("../../../images/UpgradePackages/4V46Button.png")}
           className="package-image"
           onClick={this.handleShow}
         />

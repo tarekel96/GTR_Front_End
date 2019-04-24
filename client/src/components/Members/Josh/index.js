@@ -22,7 +22,10 @@ class Josh extends Component {
     return (
       <div>
         <Card className="members-cards">
-          <Card.Img variant="top" src={"assets/images/members/Josh.jpg"} />
+          <Card.Img
+            variant="top"
+            src={require("../../../images/members/Josh.jpg")}
+          />
           <Card.Body>
             <Card.Title>{personalInfo.name}</Card.Title>
             <Card.Text>{personalInfo.title}</Card.Text>

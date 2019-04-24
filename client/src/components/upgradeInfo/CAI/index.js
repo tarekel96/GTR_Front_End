@@ -11,7 +11,7 @@ class CAI extends Component {
       name: "Cold Air Induction Kits",
       id: 1,
       render: false,
-      img: "assets/images/UpgradeInfo/CAI_Cropped.jpg",
+      img: "../../../images/UpgradeInfo/CAI_Cropped.jpg",
       info:
         "GTR carries a full line of various brand cold air induction and intake kits for late-model Mustangs. From simple, yet effective, no-frills intake kits to chrome-plated or carbon-fiber induction kits with custom programed computer tuners. Adding a cold air intake will improve power output and also render improved fuel mileage--you get the best of both worlds! Cold air kits are one of the most popular upgrades we offer because they flat-out work! Best of all, most cold air kits can be installed in as little as 20 minutes with basic tools and many are 50 state smog-legal. Put this on the top of your list if more power is what you are after. Contact GTR to help choose which cold air intake is right for your Mustang!",
       benefits: [
@@ -38,7 +38,10 @@ class CAI extends Component {
           <h2>{this.state.name}</h2>
 
           <div className="cai-images-div">
-            <Image src={this.state.img} className="cai-images" />
+            <Image
+              src={require("../../../images/UpgradeInfo/CAI_Cropped.jpg")}
+              className="cai-images"
+            />
           </div>
 
           <div className="cai-benefits-div">

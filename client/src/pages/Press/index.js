@@ -55,6 +55,7 @@ class Press extends Component {
             <SideArticles list={articles} showList={this.state.showList} />
           </Fade>
           <Button
+            variant="info"
             className="mx-auto mb-4 d-flex"
             onClick={this.togglerArticles}
           >

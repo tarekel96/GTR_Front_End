@@ -23,7 +23,10 @@ class Eli extends Component {
     return (
       <Fragment>
         <Card className="members-cards">
-          <Card.Img variant="top" src={"assets/images/members/Eli.jpg"} />
+          <Card.Img
+            variant="top"
+            src={require("../../../images/members/Eli.jpg")}
+          />
           <Card.Body>
             <Card.Title>{personalInfo.name}</Card.Title>
             <Card.Text>{personalInfo.title}</Card.Text>
