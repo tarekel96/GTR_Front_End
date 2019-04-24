@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4501cb3245bb18a140939d068696eea2",
+    "revision": "691fc4d0464469684d0e25f1c290ed16",
     "url": "/GTR_Front_End/index.html"
   },
   {
@@ -8,15 +8,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/GTR_Front_End/static/css/2.0f7a873c.chunk.css"
   },
   {
-    "revision": "61da3f1c656b01335949",
-    "url": "/GTR_Front_End/static/css/main.39e7db6a.chunk.css"
+    "revision": "8604acdc46e58d1deaf0",
+    "url": "/GTR_Front_End/static/css/main.3740873a.chunk.css"
   },
   {
     "revision": "2df70cf10d634df1c106",
     "url": "/GTR_Front_End/static/js/2.b6e449cc.chunk.js"
   },
   {
-    "revision": "61da3f1c656b01335949",
+    "revision": "8604acdc46e58d1deaf0",
     "url": "/GTR_Front_End/static/js/main.be175f5d.chunk.js"
   },
   {
