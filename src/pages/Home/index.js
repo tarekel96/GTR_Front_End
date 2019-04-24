@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Container, Col, Row, Button } from "react-bootstrap";
 import Shelby from "../../images/Home/RedStang.jpeg";
 import GoogleMap from "../../components/GoogleMap/index.js";
+import { LinkContainer } from "react-router-bootstrap";
 import "./home.css";
 
 class Home extends Component {
@@ -39,10 +40,15 @@ class Home extends Component {
                   knowledgeable staff, GTR High Performance has emerged as one
                   of the premier Mustang performance shops in the country.
                 </section>
-
-                <Button id="home-button-learn" variant="info" href="/about">
-                  Learn More
-                </Button>
+                <LinkContainer to="/about">
+                  <Button
+                    id="home-button-learn"
+                    variant="info"
+                    onClick={this.handleScroll}
+                  >
+                    Learn More
+                  </Button>
+                </LinkContainer>
               </div>
             </Col>
             <Col md="8" lg="6">

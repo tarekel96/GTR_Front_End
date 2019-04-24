@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c69d3a74c375ddb7caa2a77ac6b0e71b",
+    "revision": "e1bb94ecdef3dd448e506c0d040705a5",
     "url": "/GTR_Front_End/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/GTR_Front_End/static/css/2.0f7a873c.chunk.css"
   },
   {
-    "revision": "8bb38a8902c869f57b66",
+    "revision": "25dea73376f6b9656f3f",
     "url": "/GTR_Front_End/static/css/main.39e7db6a.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/GTR_Front_End/static/js/2.5dafa614.chunk.js"
   },
   {
-    "revision": "8bb38a8902c869f57b66",
-    "url": "/GTR_Front_End/static/js/main.b1c4c7d9.chunk.js"
+    "revision": "25dea73376f6b9656f3f",
+    "url": "/GTR_Front_End/static/js/main.53d64695.chunk.js"
   },
   {
     "revision": "1a0f9a836a08326c1b06",
