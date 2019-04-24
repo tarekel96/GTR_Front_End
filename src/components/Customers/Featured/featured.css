@@ -21,7 +21,7 @@
     display: block;
   }
   iframe {
-    height: 195px;
-    width: 320px;
+    height: 100%;
+    width: 90%;
   }
 }
